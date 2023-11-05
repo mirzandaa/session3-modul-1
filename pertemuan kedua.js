@@ -126,49 +126,49 @@
 //   `Is ${numberToCheck} even? ${numberToCheck % 2 === 0 ? "Yes" : "No"}`
 // );
 
-// // FOR LOOP
+// FOR LOOP
 
-// // const input = "purwadhika";
-// // const lengthOfInput = input.length;
-// // for (let i = 0; i < 11; i++)
-// // console.log(input[i]);
+// const input = "purwadhika";
+// const lengthOfInput = input.length;
+// for (let i = 0; i < 11; i++)
+// console.log(input[i]);
 
-// // while true do something
+// while true do something
 
-// // let i = 0;
-// // while ( i < lengthOfInput) {
-// //     console.log(input[i])
-// //     i++;
-// // }
-
-// // let i = 0;
-// // do {
-// //   console.log(input[i]);
-
-// // } while (i !== 0);
-
-// const input = 'purwadhika'
-// const lengthOfInput = input.length
-
-// for (let i =0; i < lengthOfInput; i++) {
+// let i = 0;
+// while ( i < lengthOfInput) {
 //     console.log(input[i])
-//     if (input[i] === 'd') {
-//         console.log('huruf d ada di index ke', i)
-//         // break untuk menghentikan
-//         break;
-//     }
+//     i++;
 // }
 
-// const str = 'ccbbbdaaacc'
-// for (let i =0; i < lengthOfInput; i++) {
-//     if (str[i] === 'a') {
-//         // continue untuk skip
-//         continue;
-//         // console.log('*')
-//     } else {
-//         console.log(str[i]);
-//     }
-// }
+// let i = 0;
+// do {
+//   console.log(input[i]);
+
+// } while (i !== 0);
+
+const input = 'purwadhika'
+const lengthOfInput = input.length
+
+for (let i =0; i < lengthOfInput; i++) {
+    console.log(input[i])
+    if (input[i] === 'd') {
+        console.log('huruf d ada di index ke', i)
+        // break untuk menghentikan
+        break;
+    }
+}
+
+const str = 'ccbbbdaaacc'
+for (let i =0; i < lengthOfInput; i++) {
+    if (str[i] === 'a') {
+        // continue untuk skip
+        continue;
+          // console.log('*')
+    } else {
+        console.log(str[i]);
+  }
+}
 
 const input = "a";
 const targetLength = 10;
