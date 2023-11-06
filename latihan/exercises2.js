@@ -106,40 +106,40 @@ console.log(z + " " + "is not a prime number.");
 // }
 
 
-// const ntargetOffibonacci = 16;
+const ntargetOffibonacci = 16;
 
-// let lastValueOffibonacci = 1;
-// let secondLastValueOffibbonaci = 0;
-// let fibonacciNumber = "";
+let lastValueOffibonacci = 1;
+let secondLastValueOffibbonaci = 0;
+let fibonacciNumber = "";
 
-// if (ntargetOffibonacci <= 0) {
-//   fibonacciNumber = "invalid";
-// } else if (ntargetOffibonacci === 1) {
-//   fibonacciNumber = secondLastValueOffibbonaci.toString();
-// } else if (ntargetOffibonacci === 2) {
-//   fibonacciNumber = `${secondLastValueOffibbonaci} ${lastValueOffibonacci}`;
-// } else {
-//   fibonacciNumber = `${secondLastValueOffibbonaci} ${lastValueOffibonacci}`;
-//   for (let i = 3; i <= ntargetOffibonacci; i++) {
-//     const sumOfTwoNumbers = secondLastValueOffibbonaci + lastValueOffibonacci;
-//     fibonacciNumber += ` ${sumOfTwoNumbers}`;
-//     secondLastValueOffibbonaci = lastValueOffibonacci;
-//     lastValueOffibonacci = sumOfTwoNumbers;
-//   }
-// }
+if (ntargetOffibonacci <= 0) {
+  fibonacciNumber = "invalid";
+} else if (ntargetOffibonacci === 1) {
+  fibonacciNumber = secondLastValueOffibbonaci.toString();
+} else if (ntargetOffibonacci === 2) {
+  fibonacciNumber = `${secondLastValueOffibbonaci} ${lastValueOffibonacci}`;
+} else {
+  fibonacciNumber = `${secondLastValueOffibbonaci} ${lastValueOffibonacci}`;
+  for (let i = 3; i <= ntargetOffibonacci; i++) {
+    const sumOfTwoNumbers = secondLastValueOffibbonaci + lastValueOffibonacci;
+    fibonacciNumber += ` ${sumOfTwoNumbers}`;
+    secondLastValueOffibbonaci = lastValueOffibonacci;
+    lastValueOffibonacci = sumOfTwoNumbers;
+  }
+}
 
 // console.log(fibonacciNumber);
 
 
-const n = 16;
-let fibonacci = [0, 1];
+// const n = 16;
+// let fibonacci = [0, 1];
 
-for (let i = 2; i < n; i++) {
-  fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-}
+// for (let i = 2; i < n; i++) {
+//   fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+// }
 
-const fibonacciNumber = fibonacci.slice(0, n).join(" ");
+// const fibonacciNumber = fibonacci.slice(0, n).join(" ");
 
-console.log(fibonacciNumber);
+// / console.log(fibonacciNumber);
 
 
